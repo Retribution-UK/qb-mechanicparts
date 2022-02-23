@@ -1,6 +1,42 @@
-# WIP
+```update pushed 23/02/2022!!!!!```
+Join the discord for the latest release with all fixes and updates https://dsc.gg/anzdevelopments
 
-```update pushed 14/02/2022!!!!!```
+
+
+```update pushed 23/02/2022!!!!!```
+Join the discord for the latest release with all fixes and updates https://dsc.gg/anzdevelopments
+
+
+
+
+
+```update pushed 23/02/2022!!!!!```
+Join the discord for the latest release with all fixes and updates https://dsc.gg/anzdevelopments
+
+
+
+
+
+
+
+```update pushed 23/02/2022!!!!!```
+Join the discord for the latest release with all fixes and updates https://dsc.gg/anzdevelopments
+
+
+
+
+
+```update pushed 23/02/2022!!!!!```
+Join the discord for the latest release with all fixes and updates https://dsc.gg/anzdevelopments
+
+
+
+
+
+
+
+
+
 
 # A Mechanic Job for QBCore Framework
 Features :
