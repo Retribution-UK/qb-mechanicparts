@@ -65,7 +65,7 @@ end
 ------------------
 RegisterNetEvent('craft:engine0')
 AddEventHandler("craft:engine0", function()
-    QBCore.Functions.Progressbar("craft_engine0", "Building Engine...", 15000, false, true, {
+    QBCore.Functions.Progressbar("craft_engine0", "Building Engine...", 25000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -73,7 +73,7 @@ AddEventHandler("craft:engine0", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,10)
@@ -90,7 +90,7 @@ end)
 
 RegisterNetEvent('craft:engine1')
 AddEventHandler("craft:engine1", function()
-    QBCore.Functions.Progressbar("craft_engine1", "Building Engine...", 15000, false, true, {
+    QBCore.Functions.Progressbar("craft_engine1", "Building Engine...", 25000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -98,7 +98,7 @@ AddEventHandler("craft:engine1", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,10)
@@ -115,7 +115,7 @@ end)
 
 RegisterNetEvent('craft:engine2')
 AddEventHandler("craft:engine2", function()
-    QBCore.Functions.Progressbar("craft_engine2", "Building Engine...", 15000, false, true, {
+    QBCore.Functions.Progressbar("craft_engine2", "Building Engine...", 25000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -123,7 +123,7 @@ AddEventHandler("craft:engine2", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -140,7 +140,7 @@ end)
 
 RegisterNetEvent('craft:engine3')
 AddEventHandler("craft:engine3", function()
-    QBCore.Functions.Progressbar("craft_engine3", "Building Engine...", 15000, false, true, {
+    QBCore.Functions.Progressbar("craft_engine3", "Building Engine...", 25000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -148,7 +148,7 @@ AddEventHandler("craft:engine3", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(4,9)
@@ -165,7 +165,7 @@ end)
 
 RegisterNetEvent('craft:engine4')
 AddEventHandler("craft:engine4", function()
-    QBCore.Functions.Progressbar("craft_engine4", "Building Engine...", 15000, false, true, {
+    QBCore.Functions.Progressbar("craft_engine4", "Building Engine...", 25000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -173,7 +173,7 @@ AddEventHandler("craft:engine4", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(4,8)
@@ -191,7 +191,7 @@ end)
 -- BRAKES
 RegisterNetEvent('craft:brake0')
 AddEventHandler("craft:brake0", function()
-    QBCore.Functions.Progressbar("craft_brake0", "Building Brake Setup...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_brake0", "Building Brake Setup...", 22000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -199,7 +199,7 @@ AddEventHandler("craft:brake0", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -216,7 +216,7 @@ end)
 
 RegisterNetEvent('craft:brake1')
 AddEventHandler("craft:brake1", function()
-    QBCore.Functions.Progressbar("craft_brake1", "Building Brake Setup...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_brake1", "Building Brake Setup...", 22000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -224,7 +224,7 @@ AddEventHandler("craft:brake1", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -241,7 +241,7 @@ end)
 
 RegisterNetEvent('craft:brake2')
 AddEventHandler("craft:brake2", function()
-    QBCore.Functions.Progressbar("craft_brake2", "Building Brake Setup...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_brake2", "Building Brake Setup...", 22000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -249,7 +249,7 @@ AddEventHandler("craft:brake2", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -266,7 +266,7 @@ end)
 
 RegisterNetEvent('craft:brake3')
 AddEventHandler("craft:brake3", function()
-    QBCore.Functions.Progressbar("craft_brake3", "Building Brake Setup...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_brake3", "Building Brake Setup...", 22000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -274,7 +274,7 @@ AddEventHandler("craft:brake3", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -289,34 +289,10 @@ AddEventHandler("craft:brake3", function()
     end)
 end)
 
-RegisterNetEvent('craft:brake4')
-AddEventHandler("craft:brake4", function()
-    QBCore.Functions.Progressbar("craft_brake4", "Building Brake Setup...", 10000, false, true, {
-        disableMovement = true,
-        disableCarMovement = true,
-        disableMouse = false,
-        disableCombat = true,
-    }, {
-        animDict = "mini@repair",
-        anim = "fixing_a_player",
-        flags = 16,
-    }, {}, {}, function() 
-        local playerPed = PlayerPedId()
-        local success = exports['qb-lock']:StartLockPickCircle(3,9)
-   if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
-        TriggerServerEvent("craft:brake4")
-        ClearPedTasks(playerPed)
-    else
-        QBCore.Functions.Notify("Failed!", "error")
-        ClearPedTasks(playerPed)
-        end
-    end)
-end)
-
+-- Transmission
 RegisterNetEvent('craft:transmission0')
 AddEventHandler("craft:transmission0", function()
-    QBCore.Functions.Progressbar("craft_transmission0", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_transmission0", "Building Transmission...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -324,7 +300,7 @@ AddEventHandler("craft:transmission0", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -341,7 +317,7 @@ end)
 
 RegisterNetEvent('craft:transmission1')
 AddEventHandler("craft:transmission1", function()
-    QBCore.Functions.Progressbar("craft_transmission1", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_transmission1", "Building Transmission...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -349,7 +325,7 @@ AddEventHandler("craft:transmission1", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -366,7 +342,7 @@ end)
 
 RegisterNetEvent('craft:transmission2')
 AddEventHandler("craft:transmission2", function()
-    QBCore.Functions.Progressbar("craft_transmission2", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_transmission2", "Building Transmission...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -374,7 +350,7 @@ AddEventHandler("craft:transmission2", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -391,7 +367,7 @@ end)
 
 RegisterNetEvent('craft:transmission3')
 AddEventHandler("craft:transmission3", function()
-    QBCore.Functions.Progressbar("craft_transmission3", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_transmission3", "Building Transmission...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -399,7 +375,7 @@ AddEventHandler("craft:transmission3", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -414,34 +390,10 @@ AddEventHandler("craft:transmission3", function()
     end)
 end)
 
-RegisterNetEvent('craft:transmission4')
-AddEventHandler("craft:transmission4", function()
-    QBCore.Functions.Progressbar("craft_transmission4", "Building Transmission...", 10000, false, true, {
-        disableMovement = true,
-        disableCarMovement = true,
-        disableMouse = false,
-        disableCombat = true,
-    }, {
-        animDict = "mini@repair",
-        anim = "fixing_a_player",
-        flags = 16,
-    }, {}, {}, function() 
-        local playerPed = PlayerPedId()
-        local success = exports['qb-lock']:StartLockPickCircle(3,9)
-   if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
-        TriggerServerEvent("craft:transmission4")
-        ClearPedTasks(playerPed)
-    else
-        QBCore.Functions.Notify("Failed!", "error")
-        ClearPedTasks(playerPed)
-        end
-    end)
-end)
-
+-- Suspension
 RegisterNetEvent('craft:suspension0')
 AddEventHandler("craft:suspension0", function()
-    QBCore.Functions.Progressbar("craft_suspension0", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_suspension0", "Building Suspension...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -449,7 +401,7 @@ AddEventHandler("craft:suspension0", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -466,7 +418,7 @@ end)
 
 RegisterNetEvent('craft:suspension1')
 AddEventHandler("craft:suspension1", function()
-    QBCore.Functions.Progressbar("craft_suspension1", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_suspension1", "Building Suspension...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -474,7 +426,7 @@ AddEventHandler("craft:suspension1", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -491,7 +443,7 @@ end)
 
 RegisterNetEvent('craft:suspension2')
 AddEventHandler("craft:suspension2", function()
-    QBCore.Functions.Progressbar("craft_suspension2", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_suspension2", "Building Suspension...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -499,7 +451,7 @@ AddEventHandler("craft:suspension2", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -516,7 +468,7 @@ end)
 
 RegisterNetEvent('craft:suspension3')
 AddEventHandler("craft:suspension3", function()
-    QBCore.Functions.Progressbar("craft_suspension3", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_suspension3", "Building Suspension...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -524,7 +476,7 @@ AddEventHandler("craft:suspension3", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -541,7 +493,7 @@ end)
 
 RegisterNetEvent('craft:suspension4')
 AddEventHandler("craft:suspension4", function()
-    QBCore.Functions.Progressbar("craft_suspension4", "Building Transmission...", 10000, false, true, {
+    QBCore.Functions.Progressbar("craft_suspension4", "Building Suspension...", 24000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -549,7 +501,7 @@ AddEventHandler("craft:suspension4", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -567,7 +519,7 @@ end)
 -- TURBO
 RegisterNetEvent('craft:turbo0')
 AddEventHandler("craft:turbo0", function()
-    QBCore.Functions.Progressbar("craft_turbo0", "Building Turbo...", 11000, false, true, {
+    QBCore.Functions.Progressbar("craft_turbo0", "Building Turbo...", 18000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -575,7 +527,7 @@ AddEventHandler("craft:turbo0", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -592,7 +544,7 @@ end)
 
 RegisterNetEvent('craft:turbo1')
 AddEventHandler("craft:turbo1", function()
-    QBCore.Functions.Progressbar("craft_turbo1", "Building Turbo...", 11000, false, true, {
+    QBCore.Functions.Progressbar("craft_turbo1", "Building Turbo...", 18000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -600,7 +552,7 @@ AddEventHandler("craft:turbo1", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -618,7 +570,7 @@ end)
 -- WINDOW TINTING (TEST)
 RegisterNetEvent('craft:windowtint0')
 AddEventHandler("craft:windowtint0", function()
-    QBCore.Functions.Progressbar("craft_windowtint0", "Setting Window Tint...", 11000, false, true, {
+    QBCore.Functions.Progressbar("craft_windowtint0", "Setting Window Tint...", 18500, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -626,7 +578,7 @@ AddEventHandler("craft:windowtint0", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -643,7 +595,7 @@ end)
 
 RegisterNetEvent('craft:harness')
 AddEventHandler("craft:harness", function()
-    QBCore.Functions.Progressbar("craft_harness", "Building Harness Kit...", 11000, false, true, {
+    QBCore.Functions.Progressbar("craft_harness", "Building Harness Kit...", 17500, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -651,7 +603,7 @@ AddEventHandler("craft:harness", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -668,7 +620,7 @@ end)
 
 RegisterNetEvent('craft:repairkit')
 AddEventHandler("craft:repairkit", function()
-    QBCore.Functions.Progressbar("craft_repairkit", "Grabbing Tools...", 11000, false, true, {
+    QBCore.Functions.Progressbar("craft_repairkit", "Grabbing Tools...", 16000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -676,7 +628,7 @@ AddEventHandler("craft:repairkit", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -693,7 +645,7 @@ end)
 
 RegisterNetEvent('craft:advlockpick')
 AddEventHandler("craft:advlockpick", function()
-    QBCore.Functions.Progressbar("craft_advlockpick", "Making Lockpick Kit...", 11000, false, true, {
+    QBCore.Functions.Progressbar("craft_advlockpick", "Making Lockpick Kit...", 15000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -701,7 +653,7 @@ AddEventHandler("craft:advlockpick", function()
     }, {
         animDict = "mini@repair",
         anim = "fixing_a_player",
-        flags = 16,
+        flags = 9,
     }, {}, {}, function() 
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(3,9)
@@ -727,7 +679,7 @@ AddEventHandler('qb-mechanicparts:E0', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
 --     local trunkpos = false
-    engine = GetVehicleMod(veh, 11)
+    engine = GetVehicleMod(vehicle, 11)
         if PlayerJob.name == Config.Job then
             if onDuty then
                   if engine ~= -1 then 
@@ -747,7 +699,7 @@ AddEventHandler('qb-mechanicparts:E0', function()
                                 drawpos = GetOffsetFromEntityInWorldCoords(vehicle, 0, -2.5, 0)
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
-                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 10000, false, true, {
+                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 35000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -755,7 +707,7 @@ AddEventHandler('qb-mechanicparts:E0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -788,7 +740,7 @@ RegisterNetEvent('qb-mechanicparts:E1')
 AddEventHandler('qb-mechanicparts:E1', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    engine = GetVehicleMod(veh, 11)
+    engine = GetVehicleMod(vehicle, 11)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if engine ~= 0 then
@@ -808,7 +760,7 @@ AddEventHandler('qb-mechanicparts:E1', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 10000, false, true, {
+                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 35000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -816,7 +768,7 @@ AddEventHandler('qb-mechanicparts:E1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -846,7 +798,7 @@ RegisterNetEvent('qb-mechanicparts:E2')
 AddEventHandler('qb-mechanicparts:E2', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    engine = GetVehicleMod(veh, 11)
+    engine = GetVehicleMod(vehicle, 11)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if engine ~= 1 then 
@@ -866,7 +818,7 @@ AddEventHandler('qb-mechanicparts:E2', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 10000, false, true, {
+                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 35000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -874,7 +826,7 @@ AddEventHandler('qb-mechanicparts:E2', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -904,7 +856,7 @@ RegisterNetEvent('qb-mechanicparts:E3')
 AddEventHandler('qb-mechanicparts:E3', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    engine = GetVehicleMod(veh, 11)
+    engine = GetVehicleMod(vehicle, 11)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if engine ~= 2 then 
@@ -924,7 +876,7 @@ AddEventHandler('qb-mechanicparts:E3', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 10000, false, true, {
+                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 35000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -932,7 +884,7 @@ AddEventHandler('qb-mechanicparts:E3', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -963,7 +915,7 @@ RegisterNetEvent('qb-mechanicparts:E4')
 AddEventHandler('qb-mechanicparts:E4', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    engine = GetVehicleMod(veh, 11)
+    engine = GetVehicleMod(vehicle, 11)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if engine ~= 3 then 
@@ -983,7 +935,7 @@ AddEventHandler('qb-mechanicparts:E4', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 10000, false, true, {
+                                QBCore.Functions.Progressbar("Gas_Engine", "Installing Engine Mod...", 35000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -991,7 +943,7 @@ AddEventHandler('qb-mechanicparts:E4', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1022,7 +974,7 @@ RegisterNetEvent('qb-mechanicparts:B0')
 AddEventHandler('qb-mechanicparts:B0', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    brake = GetVehicleMod(veh, 12)
+    brake = GetVehicleMod(vehicle, 12)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if brake ~= -1 then
@@ -1042,7 +994,7 @@ AddEventHandler('qb-mechanicparts:B0', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Brakes", "Installing Stock Brakes...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Brakes", "Installing Stock Brakes...", 28500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1050,7 +1002,7 @@ AddEventHandler('qb-mechanicparts:B0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1080,7 +1032,7 @@ RegisterNetEvent('qb-mechanicparts:B1')
 AddEventHandler('qb-mechanicparts:B1', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    brake = GetVehicleMod(veh, 12)
+    brake = GetVehicleMod(vehicle, 12)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if brake ~= 0 then
@@ -1100,7 +1052,7 @@ AddEventHandler('qb-mechanicparts:B1', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Brakes", "Installing Brakes...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Brakes", "Installing Brakes...", 18500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1108,7 +1060,7 @@ AddEventHandler('qb-mechanicparts:B1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1138,7 +1090,7 @@ RegisterNetEvent('qb-mechanicparts:B2')
 AddEventHandler('qb-mechanicparts:B2', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    brake = GetVehicleMod(veh, 12)
+    brake = GetVehicleMod(vehicle, 12)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if brake ~= 1 then
@@ -1158,7 +1110,7 @@ AddEventHandler('qb-mechanicparts:B2', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Brakes", "Installing Brakes...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Brakes", "Installing Brakes...", 18500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1166,7 +1118,7 @@ AddEventHandler('qb-mechanicparts:B2', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1196,7 +1148,7 @@ RegisterNetEvent('qb-mechanicparts:B3')
 AddEventHandler('qb-mechanicparts:B3', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    brake = GetVehicleMod(veh, 12)
+    brake = GetVehicleMod(vehicle, 12)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if brake ~= 2 then
@@ -1216,7 +1168,7 @@ AddEventHandler('qb-mechanicparts:B3', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Brakes", "Installing Brakes...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Brakes", "Installing Brakes...", 18500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1224,7 +1176,7 @@ AddEventHandler('qb-mechanicparts:B3', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1255,7 +1207,7 @@ RegisterNetEvent('qb-mechanicparts:T0')
 AddEventHandler('qb-mechanicparts:T0', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    transmission = GetVehicleMod(veh, 13)
+    transmission = GetVehicleMod(vehicle, 13)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if transmission ~= -1 then
@@ -1275,7 +1227,7 @@ AddEventHandler('qb-mechanicparts:T0', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Transmission", "Installing Stock Transmission...", 9250, false, true, {
+                                QBCore.Functions.Progressbar("Transmission", "Installing Stock Transmission...", 21250, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1283,7 +1235,7 @@ AddEventHandler('qb-mechanicparts:T0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1313,7 +1265,7 @@ RegisterNetEvent('qb-mechanicparts:T1')
 AddEventHandler('qb-mechanicparts:T1', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    transmission = GetVehicleMod(veh, 13)
+    transmission = GetVehicleMod(vehicle, 13)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if transmission ~= 0 then
@@ -1333,7 +1285,7 @@ AddEventHandler('qb-mechanicparts:T1', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Transmission", "Installing Transmission...", 9250, false, true, {
+                                QBCore.Functions.Progressbar("Transmission", "Installing Transmission...", 21250, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1341,7 +1293,7 @@ AddEventHandler('qb-mechanicparts:T1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1371,7 +1323,7 @@ RegisterNetEvent('qb-mechanicparts:T2')
 AddEventHandler('qb-mechanicparts:T2', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    transmission = GetVehicleMod(veh, 13)
+    transmission = GetVehicleMod(vehicle, 13)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if transmission ~= 1 then
@@ -1391,7 +1343,7 @@ AddEventHandler('qb-mechanicparts:T2', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Transmission", "Installing Transmission...", 9250, false, true, {
+                                QBCore.Functions.Progressbar("Transmission", "Installing Transmission...", 21250, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1399,7 +1351,7 @@ AddEventHandler('qb-mechanicparts:T2', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1429,7 +1381,7 @@ RegisterNetEvent('qb-mechanicparts:T3')
 AddEventHandler('qb-mechanicparts:T3', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    transmission = GetVehicleMod(veh, 13)
+    transmission = GetVehicleMod(vehicle, 13)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if transmission ~= 2 then
@@ -1449,7 +1401,7 @@ AddEventHandler('qb-mechanicparts:T3', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Transmission", "Installing Transmission...", 9250, false, true, {
+                                QBCore.Functions.Progressbar("Transmission", "Installing Transmission...", 21250, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1457,7 +1409,7 @@ AddEventHandler('qb-mechanicparts:T3', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1488,7 +1440,7 @@ RegisterNetEvent('qb-mechanicparts:S0')
 AddEventHandler('qb-mechanicparts:S0', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    suspension = GetVehicleMod(veh, 15)
+    suspension = GetVehicleMod(vehicle, 15)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if suspension ~= -1 then
@@ -1508,7 +1460,7 @@ AddEventHandler('qb-mechanicparts:S0', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Suspension", "Installing Stock Suspension...", 9000, false, true, {
+                                QBCore.Functions.Progressbar("Suspension", "Installing Stock Suspension...", 20000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1516,7 +1468,7 @@ AddEventHandler('qb-mechanicparts:S0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1546,7 +1498,7 @@ RegisterNetEvent('qb-mechanicparts:S1')
 AddEventHandler('qb-mechanicparts:S1', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    suspension = GetVehicleMod(veh, 15)
+    suspension = GetVehicleMod(vehicle, 15)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if suspension ~= 0 then
@@ -1566,7 +1518,7 @@ AddEventHandler('qb-mechanicparts:S1', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 9000, false, true, {
+                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 20000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1574,7 +1526,7 @@ AddEventHandler('qb-mechanicparts:S1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1604,7 +1556,7 @@ RegisterNetEvent('qb-mechanicparts:S2')
 AddEventHandler('qb-mechanicparts:S2', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    suspension = GetVehicleMod(veh, 15)
+    suspension = GetVehicleMod(vehicle, 15)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if suspension ~= 1 then
@@ -1624,7 +1576,7 @@ AddEventHandler('qb-mechanicparts:S2', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 9000, false, true, {
+                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 20000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1632,7 +1584,7 @@ AddEventHandler('qb-mechanicparts:S2', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1662,7 +1614,7 @@ RegisterNetEvent('qb-mechanicparts:S3')
 AddEventHandler('qb-mechanicparts:S3', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    suspension = GetVehicleMod(veh, 15)
+    suspension = GetVehicleMod(vehicle, 15)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if suspension ~= 2 then
@@ -1682,7 +1634,7 @@ AddEventHandler('qb-mechanicparts:S3', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 9000, false, true, {
+                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 20000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1690,7 +1642,7 @@ AddEventHandler('qb-mechanicparts:S3', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1720,7 +1672,7 @@ RegisterNetEvent('qb-mechanicparts:S4')
 AddEventHandler('qb-mechanicparts:S4', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    suspension = GetVehicleMod(veh, 15)
+    suspension = GetVehicleMod(vehicle, 15)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if suspension ~= 3 then
@@ -1740,7 +1692,7 @@ AddEventHandler('qb-mechanicparts:S4', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 9000, false, true, {
+                                QBCore.Functions.Progressbar("Suspension", "Installing Suspension...", 20000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1748,7 +1700,7 @@ AddEventHandler('qb-mechanicparts:S4', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1779,7 +1731,7 @@ RegisterNetEvent('qb-mechanicparts:Turbo0')
 AddEventHandler('qb-mechanicparts:Turbo0', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    turbo = IsToggleModOn(veh, 18)
+    turbo = IsToggleModOn(vehicle, 18)
     print(turbo)
         if PlayerJob.name == Config.Job then
             if onDuty then
@@ -1800,7 +1752,7 @@ AddEventHandler('qb-mechanicparts:Turbo0', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Turbo", "Removing Turbo...", 9250, false, true, {
+                                QBCore.Functions.Progressbar("Turbo", "Removing Turbo...", 19250, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1808,7 +1760,7 @@ AddEventHandler('qb-mechanicparts:Turbo0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1838,7 +1790,7 @@ RegisterNetEvent('qb-mechanicparts:Turbo1')
 AddEventHandler('qb-mechanicparts:Turbo1', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    turbo = IsToggleModOn(veh, 18)
+    turbo = IsToggleModOn(vehicle, 18)
     print(turbo)
         if PlayerJob.name == Config.Job then
             if onDuty then
@@ -1859,7 +1811,7 @@ AddEventHandler('qb-mechanicparts:Turbo1', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Turbo", "Installing Turbo...", 9500, false, true, {
+                                QBCore.Functions.Progressbar("Turbo", "Installing Turbo...", 19500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1867,7 +1819,7 @@ AddEventHandler('qb-mechanicparts:Turbo1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1899,7 +1851,7 @@ RegisterNetEvent('qb-mechanicparts:WT0')
 AddEventHandler('qb-mechanicparts:WT0', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    tint = GetVehicleMod(veh, 46)
+    tint = GetVehicleMod(vehicle, 46)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if tint ~= 0 then
@@ -1919,7 +1871,7 @@ AddEventHandler('qb-mechanicparts:WT0', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Tint", "Removing Window Tint...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Tint", "Removing Window Tint...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1927,7 +1879,7 @@ AddEventHandler('qb-mechanicparts:WT0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -1957,7 +1909,7 @@ RegisterNetEvent('qb-mechanicparts:WT1')
 AddEventHandler('qb-mechanicparts:WT1', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    tint = GetVehicleMod(veh, 46)
+    tint = GetVehicleMod(vehicle, 46)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if tint ~= 1 then
@@ -1977,7 +1929,7 @@ AddEventHandler('qb-mechanicparts:WT1', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Tint", "Installing Window Tint...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Tint", "Installing Window Tint...", 16500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -1985,7 +1937,7 @@ AddEventHandler('qb-mechanicparts:WT1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2015,7 +1967,7 @@ RegisterNetEvent('qb-mechanicparts:WT2')
 AddEventHandler('qb-mechanicparts:WT2', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    tint = GetVehicleMod(veh, 46)
+    tint = GetVehicleMod(vehicle, 46)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if tint ~= 2 then
@@ -2035,7 +1987,7 @@ AddEventHandler('qb-mechanicparts:WT2', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Tint", "Installing Window Tint...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Tint", "Installing Window Tint...", 16500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2043,7 +1995,7 @@ AddEventHandler('qb-mechanicparts:WT2', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2074,7 +2026,7 @@ RegisterNetEvent('qb-mechanicparts:WT3')
 AddEventHandler('qb-mechanicparts:WT3', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    tint = GetVehicleMod(veh, 46)
+    tint = GetVehicleMod(vehicle, 46)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if tint ~= 3 then
@@ -2094,7 +2046,7 @@ AddEventHandler('qb-mechanicparts:WT3', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("Tint", "Installing Window Tint...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("Tint", "Installing Window Tint...", 16500, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2102,7 +2054,7 @@ AddEventHandler('qb-mechanicparts:WT3', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2133,7 +2085,7 @@ RegisterNetEvent('qb-mechanicparts:HLS')
 AddEventHandler('qb-mechanicparts:HLS', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2153,7 +2105,7 @@ AddEventHandler('qb-mechanicparts:HLS', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2161,7 +2113,7 @@ AddEventHandler('qb-mechanicparts:HLS', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2192,7 +2144,7 @@ RegisterNetEvent('qb-mechanicparts:HL0')
 AddEventHandler('qb-mechanicparts:HL0', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2212,7 +2164,7 @@ AddEventHandler('qb-mechanicparts:HL0', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2220,7 +2172,7 @@ AddEventHandler('qb-mechanicparts:HL0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2251,7 +2203,7 @@ RegisterNetEvent('qb-mechanicparts:HL1')
 AddEventHandler('qb-mechanicparts:HL1', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2271,7 +2223,7 @@ AddEventHandler('qb-mechanicparts:HL1', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2279,7 +2231,7 @@ AddEventHandler('qb-mechanicparts:HL1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2310,7 +2262,7 @@ RegisterNetEvent('qb-mechanicparts:HL2')
 AddEventHandler('qb-mechanicparts:HL2', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2330,7 +2282,7 @@ AddEventHandler('qb-mechanicparts:HL2', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2338,7 +2290,7 @@ AddEventHandler('qb-mechanicparts:HL2', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2369,7 +2321,7 @@ RegisterNetEvent('qb-mechanicparts:HL3')
 AddEventHandler('qb-mechanicparts:HL3', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2389,7 +2341,7 @@ AddEventHandler('qb-mechanicparts:HL3', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2397,7 +2349,7 @@ AddEventHandler('qb-mechanicparts:HL3', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2428,7 +2380,7 @@ RegisterNetEvent('qb-mechanicparts:HL4')
 AddEventHandler('qb-mechanicparts:HL4', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2448,7 +2400,7 @@ AddEventHandler('qb-mechanicparts:HL4', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2456,7 +2408,7 @@ AddEventHandler('qb-mechanicparts:HL4', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2487,7 +2439,7 @@ RegisterNetEvent('qb-mechanicparts:HL5')
 AddEventHandler('qb-mechanicparts:HL5', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2507,7 +2459,7 @@ AddEventHandler('qb-mechanicparts:HL5', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2515,7 +2467,7 @@ AddEventHandler('qb-mechanicparts:HL5', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2546,7 +2498,7 @@ RegisterNetEvent('qb-mechanicparts:HL6')
 AddEventHandler('qb-mechanicparts:HL6', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2566,7 +2518,7 @@ AddEventHandler('qb-mechanicparts:HL6', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2574,7 +2526,7 @@ AddEventHandler('qb-mechanicparts:HL6', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2605,7 +2557,7 @@ RegisterNetEvent('qb-mechanicparts:HL7')
 AddEventHandler('qb-mechanicparts:HL7', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2625,7 +2577,7 @@ AddEventHandler('qb-mechanicparts:HL7', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2633,7 +2585,7 @@ AddEventHandler('qb-mechanicparts:HL7', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2664,7 +2616,7 @@ RegisterNetEvent('qb-mechanicparts:HL8')
 AddEventHandler('qb-mechanicparts:HL8', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2684,7 +2636,7 @@ AddEventHandler('qb-mechanicparts:HL8', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2692,7 +2644,7 @@ AddEventHandler('qb-mechanicparts:HL8', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2723,7 +2675,7 @@ RegisterNetEvent('qb-mechanicparts:HL9')
 AddEventHandler('qb-mechanicparts:HL9', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2743,7 +2695,7 @@ AddEventHandler('qb-mechanicparts:HL9', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2751,7 +2703,7 @@ AddEventHandler('qb-mechanicparts:HL9', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2782,7 +2734,7 @@ RegisterNetEvent('qb-mechanicparts:HL10')
 AddEventHandler('qb-mechanicparts:HL10', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2802,7 +2754,7 @@ AddEventHandler('qb-mechanicparts:HL10', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2810,7 +2762,7 @@ AddEventHandler('qb-mechanicparts:HL10', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2841,7 +2793,7 @@ RegisterNetEvent('qb-mechanicparts:HL11')
 AddEventHandler('qb-mechanicparts:HL11', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2861,7 +2813,7 @@ AddEventHandler('qb-mechanicparts:HL11', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2869,7 +2821,7 @@ AddEventHandler('qb-mechanicparts:HL11', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2900,7 +2852,7 @@ RegisterNetEvent('qb-mechanicparts:HL12')
 AddEventHandler('qb-mechanicparts:HL12', function()
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local PlayerJob = QBCore.Functions.GetPlayerData().job
-    headlight = GetVehicleMod(veh, 22)
+    headlight = GetVehicleMod(vehicle, 22)
         if PlayerJob.name == Config.Job then
             if onDuty then
                 if headlight ~= 3 then
@@ -2920,7 +2872,7 @@ AddEventHandler('qb-mechanicparts:HL12', function()
                             end
                             if #(pos - drawpos) < 2.0 and not IsPedInAnyVehicle(ped) then
                             
-                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 8500, false, true, {
+                                QBCore.Functions.Progressbar("headlight", "Installing Headlights...", 15000, false, true, {
                                     disableMovement = true,
                                     disableCarMovement = true,
                                     disableMouse = false,
@@ -2928,7 +2880,7 @@ AddEventHandler('qb-mechanicparts:HL12', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -2988,7 +2940,7 @@ AddEventHandler('qb-mechanicparts:Spoiler0', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -3049,7 +3001,7 @@ AddEventHandler('qb-mechanicparts:Spoiler1', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -3107,7 +3059,7 @@ AddEventHandler('qb-mechanicparts:Spoiler2', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -3165,7 +3117,7 @@ AddEventHandler('qb-mechanicparts:Spoiler3', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -3224,7 +3176,7 @@ AddEventHandler('qb-mechanicparts:Spoiler4', function()
                                 }, {
                                     animDict = "mini@repair",
                                     anim = "fixing_a_player",
-                                    flags = 16,
+                                    flags = 9,
                                 }, {}, {}, function() -- Done
                                     ClearPedTasksImmediately(PlayerPedId())
                                     SetVehicleModKit(vehicle, 0)
@@ -3417,22 +3369,14 @@ RegisterNetEvent('craft:brakes', function()
         },
         {
             id = 5,
-            header = "Brake Upgrade D",
-            txt = "2x MetalScrap | 2x Rubber | 1x Plastic | 1x Aluminum",
+            header = "Brake Upgrade S",
+            txt = "3x MetalScrap | 2x Rubber | 1x Plastic | 1x Aluminum",
             params = {
                 event = "craft:brake3",
             }
         },
         {
             id = 6,
-            header = "Brake Upgrade S",
-            txt = "3x MetalScrap | 2x Rubber | 1x Plastic | 1x Aluminum",
-            params = {
-                event = "craft:brake4",
-            }
-        },
-        {
-            id = 7,
             header = "Main Menu",
             txt = "Back to main menu",
             params = {
@@ -3477,22 +3421,14 @@ RegisterNetEvent('craft:transmissions', function()
         },
         {
             id = 5,
-            header = "Transmission Upgrade D",
-            txt = "4x MetalScrap | 1x Rubber | 1x Plastic | 2x Aluminum | 2x Steel | 2x Iron",
+            header = "Transmission Upgrade S",
+            txt = "4x MetalScrap | 1x Rubber | 1x Plastic | 4x Aluminum | 2x Steel | 2x Iron",
             params = {
                 event = "craft:transmission3",
             }
         },
         {
             id = 6,
-            header = "Transmission Upgrade S",
-            txt = "4x MetalScrap | 1x Rubber | 1x Plastic | 4x Aluminum | 2x Steel | 2x Iron",
-            params = {
-                event = "craft:transmission4",
-            }
-        },
-        {
-            id = 7,
             header = "Main Menu",
             txt = "Back to main menu",
             params = {
@@ -3582,7 +3518,7 @@ RegisterNetEvent('craft:turbos', function()
         {
             id = 3,
             header = "Turbo",
-            txt = "4x MetalScrap | 2x Rubber | 3x Iron",
+            txt = "3x MetalScrap | 4x Rubber | 2x Iron",
             params = {
                 event = "craft:turbo1",
             }

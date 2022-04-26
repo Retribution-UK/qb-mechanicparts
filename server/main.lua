@@ -750,7 +750,7 @@ AddEventHandler("craft:brake3", function()
 
             Player.Functions.AddItem("brake3", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["brake3"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'You built Brake Upgrade D.', 'success')
+            TriggerClientEvent('QBCore:Notify', src, 'You built Brake Upgrade S.', 'success')
 
         else
             TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
@@ -762,23 +762,295 @@ AddEventHandler("craft:brake3", function()
 
 end)
 
-RegisterServerEvent("craft:brake4")
-AddEventHandler("craft:brake4", function()
+-- Transmission
+RegisterServerEvent("craft:transmission0")
+AddEventHandler("craft:transmission0", function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local iron = Player.Functions.GetItemByName("iron")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 3 and plastic.amount >= 1 and iron.amount >= 2 and steel.amount >= 1 then
+            Player.Functions.RemoveItem("metalscrap", 3)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("iron", 2)
+            Player.Functions.RemoveItem("steel", 1)
+ 
+            Player.Functions.AddItem("transmission0", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["transmission0"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Stock Transmission.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+RegisterServerEvent("craft:transmission1")
+AddEventHandler("craft:transmission1", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
     local rubber = Player.Functions.GetItemByName("rubber")
     local iron = Player.Functions.GetItemByName("iron")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local aluminum = Player.Functions.GetItemByName("aluminum")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and plastic ~= nil and aluminum ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 3 and rubber.amount >= 1 and iron.amount >= 1 and plastic.amount >= 1 and aluminum.amount >= 1 and steel.amount >= 2 then
+            Player.Functions.RemoveItem("metalscrap", 3)
+            Player.Functions.RemoveItem("rubber", 1)
+            Player.Functions.RemoveItem("iron", 1)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("aluminum", 1)
+            Player.Functions.RemoveItem("steel", 2)
+
+            Player.Functions.AddItem("transmission1", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["transmission1"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Level 1 Transmission.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+RegisterServerEvent("craft:transmission2")
+AddEventHandler("craft:transmission2", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
     local metalscrap = Player.Functions.GetItemByName("metalscrap")
-    if rubber ~= nil and iron ~= nil  and metalscrap ~= nil then
+    local rubber = Player.Functions.GetItemByName("rubber")
+    local iron = Player.Functions.GetItemByName("iron")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local aluminum = Player.Functions.GetItemByName("aluminum")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and plastic ~= nil and aluminum ~= nil and steel ~= nil then
 
-        if rubber.amount >= 3 and iron.amount >= 2 and metalscrap.amount >= 2 then
-            Player.Functions.RemoveItem("rubber", 3)
+        if metalscrap.amount >= 3 and rubber.amount >= 1 and iron.amount >= 2 and plastic.amount >= 1 and aluminum.amount >= 2 and steel.amount >= 2 then
+            Player.Functions.RemoveItem("metalscrap", 3)
+            Player.Functions.RemoveItem("rubber", 1)
             Player.Functions.RemoveItem("iron", 2)
-            Player.Functions.RemoveItem("metalscrap", 2)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("aluminum", 2)
+            Player.Functions.RemoveItem("steel", 2)
 
-            Player.Functions.AddItem("brake4", 1)
-            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["brake4"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'You built Brake Upgrade S.', 'success')
+            Player.Functions.AddItem("transmission2", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["transmission2"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Level 2 Transmission.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+RegisterServerEvent("craft:transmission3")
+AddEventHandler("craft:transmission3", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
+    local rubber = Player.Functions.GetItemByName("rubber")
+    local iron = Player.Functions.GetItemByName("iron")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local aluminum = Player.Functions.GetItemByName("aluminum")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and plastic ~= nil and aluminum ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 4 and rubber.amount >= 1 and iron.amount >= 2 and plastic.amount >= 1 and aluminum.amount >= 2 and steel.amount >= 2 then
+            Player.Functions.RemoveItem("metalscrap", 4)
+            Player.Functions.RemoveItem("rubber", 1)
+            Player.Functions.RemoveItem("iron", 2)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("aluminum", 2)
+            Player.Functions.RemoveItem("steel", 2)
+
+            Player.Functions.AddItem("transmission3", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["transmission3"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Level 3 Transmission.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+-- Suspension
+RegisterServerEvent("craft:suspension0")
+AddEventHandler("craft:suspension0", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local iron = Player.Functions.GetItemByName("iron")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 3 and plastic.amount >= 1 and iron.amount >= 2 and steel.amount >= 1 then
+            Player.Functions.RemoveItem("metalscrap", 3)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("iron", 2)
+            Player.Functions.RemoveItem("steel", 1)
+ 
+            Player.Functions.AddItem("suspension0", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["suspension0"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Stock Suspension.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+RegisterServerEvent("craft:suspension1")
+AddEventHandler("craft:suspension1", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
+    local rubber = Player.Functions.GetItemByName("rubber")
+    local iron = Player.Functions.GetItemByName("iron")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local aluminum = Player.Functions.GetItemByName("aluminum")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and plastic ~= nil and aluminum ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 3 and rubber.amount >= 1 and iron.amount >= 1 and plastic.amount >= 1 and aluminum.amount >= 1 and steel.amount >= 2 then
+            Player.Functions.RemoveItem("metalscrap", 3)
+            Player.Functions.RemoveItem("rubber", 1)
+            Player.Functions.RemoveItem("iron", 1)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("aluminum", 1)
+            Player.Functions.RemoveItem("steel", 2)
+
+            Player.Functions.AddItem("suspension1", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["suspension1"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Level 1 Suspension.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+RegisterServerEvent("craft:suspension2")
+AddEventHandler("craft:suspension2", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
+    local rubber = Player.Functions.GetItemByName("rubber")
+    local iron = Player.Functions.GetItemByName("iron")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local aluminum = Player.Functions.GetItemByName("aluminum")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and plastic ~= nil and aluminum ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 3 and rubber.amount >= 1 and iron.amount >= 2 and plastic.amount >= 1 and aluminum.amount >= 2 and steel.amount >= 2 then
+            Player.Functions.RemoveItem("metalscrap", 3)
+            Player.Functions.RemoveItem("rubber", 1)
+            Player.Functions.RemoveItem("iron", 2)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("aluminum", 2)
+            Player.Functions.RemoveItem("steel", 2)
+
+            Player.Functions.AddItem("suspension2", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["suspension2"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Level 2 Suspension.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+RegisterServerEvent("craft:suspension3")
+AddEventHandler("craft:suspension3", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
+    local rubber = Player.Functions.GetItemByName("rubber")
+    local iron = Player.Functions.GetItemByName("iron")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local aluminum = Player.Functions.GetItemByName("aluminum")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and plastic ~= nil and aluminum ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 4 and rubber.amount >= 1 and iron.amount >= 2 and plastic.amount >= 1 and aluminum.amount >= 2 and steel.amount >= 2 then
+            Player.Functions.RemoveItem("metalscrap", 4)
+            Player.Functions.RemoveItem("rubber", 1)
+            Player.Functions.RemoveItem("iron", 2)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("aluminum", 2)
+            Player.Functions.RemoveItem("steel", 2)
+
+            Player.Functions.AddItem("suspension3", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["suspension3"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Level 3 Suspension.', 'success')
+
+        else
+            TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
+        end
+
+    else
+        TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
+    end
+
+end)
+
+RegisterServerEvent("craft:suspension4")
+AddEventHandler("craft:suspension4", function()
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local metalscrap = Player.Functions.GetItemByName("metalscrap")
+    local rubber = Player.Functions.GetItemByName("rubber")
+    local iron = Player.Functions.GetItemByName("iron")
+    local plastic = Player.Functions.GetItemByName("plastic")
+    local aluminum = Player.Functions.GetItemByName("aluminum")
+    local steel = Player.Functions.GetItemByName("steel")
+    if metalscrap ~= nil and rubber ~= nil and iron ~= nil and plastic ~= nil and aluminum ~= nil and steel ~= nil then
+
+        if metalscrap.amount >= 4 and rubber.amount >= 1 and iron.amount >= 2 and plastic.amount >= 1 and aluminum.amount >= 4 and steel.amount >= 2 then
+            Player.Functions.RemoveItem("metalscrap", 4)
+            Player.Functions.RemoveItem("rubber", 1)
+            Player.Functions.RemoveItem("iron", 2)
+            Player.Functions.RemoveItem("plastic", 1)
+            Player.Functions.RemoveItem("aluminum", 4)
+            Player.Functions.RemoveItem("steel", 2)
+
+            Player.Functions.AddItem("suspension4", 1)
+            TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["suspension4"], "add")
+            TriggerClientEvent('QBCore:Notify', src, 'You built a Level 4 Suspension.', 'success')
 
         else
             TriggerClientEvent('QBCore:Notify', src, 'You dont have the correct amount of something...', 'error')
@@ -827,12 +1099,12 @@ AddEventHandler("craft:turbo1", function()
     local rubber = Player.Functions.GetItemByName("rubber")
     local iron = Player.Functions.GetItemByName("iron")
     local metalscrap = Player.Functions.GetItemByName("metalscrap")
-    if rubber ~= nil and iron ~= nil  and metalscrap ~= nil then
+    if rubber ~= nil and iron ~= nil and metalscrap ~= nil then
 
-        if rubber.amount >= 3 and iron.amount >= 2 and metalscrap.amount >= 2 then
-            Player.Functions.RemoveItem("rubber", 3)
+        if rubber.amount >= 4 and iron.amount >= 2 and metalscrap.amount >= 3 then
+            Player.Functions.RemoveItem("rubber", 4)
             Player.Functions.RemoveItem("iron", 2)
-            Player.Functions.RemoveItem("metalscrap", 2)
+            Player.Functions.RemoveItem("metalscrap", 3)
 
             Player.Functions.AddItem("turbo1", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["turbo1"], "add")
@@ -951,4 +1223,14 @@ AddEventHandler("craft:windowtint3", function()
         TriggerClientEvent("QBCore:Notify", src, "You are missing parts...", "error")
     end
 
+end)
+
+RegisterNetEvent('buy:repairkit')
+AddEventHandler('buy:repairkit', function(data)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerEvent('qb-bossmenu:server:removeAccountMoney','mechanic', 1000)
+    Player.Functions.AddItem("repairkit", 1)
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["repairkit"], "add")
+    TriggerClientEvent('QBCore:Notify', src, 'You bought a repairkit', 'success')
 end)
